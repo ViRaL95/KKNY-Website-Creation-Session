@@ -1,0 +1,32 @@
+#hover_over{
+	background-color: black;
+	width: 100%;
+	opacity: 1.0;
+}
+
+#hover_over img{
+	opacity: 1;
+	transition: .7s;
+	-webkit-transition: all .7s;
+	-moz-transition: all .7s;
+	-o-transition: all .7s;
+	width: 100%;
+}
+
+#hover_over:hover img{
+	opacity: 0.7;
+}
+
+#hover_over:hover #text{
+	opacity:1;
+}
+
+#text{
+	opacity: 0;
+	font-size: 20px;
+	color: white;
+	-webkit-transition: all .7s;
+	-moz-transition: all .7s;
+	-o-transition: all .7s;
+	transition: .7s;
+}
