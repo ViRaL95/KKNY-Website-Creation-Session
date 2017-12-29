@@ -1,0 +1,25 @@
+#parent{
+    width: 900px;
+    height: 400px; 
+    background-color: green;
+    position: relative;
+}
+
+#child1{
+    height: 100px;
+    left: 250px;
+    width: 400px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+}
+
+#child2{
+    height: 150px;
+    left: 150px;
+    width: 600px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px
+
+}
